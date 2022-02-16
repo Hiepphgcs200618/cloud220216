@@ -1,0 +1,15 @@
+{
+  "name": "w03-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appServer-0301.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0"
+  }
+}

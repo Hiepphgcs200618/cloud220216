@@ -3,7 +3,7 @@ const app = express();
 var path = require ("path");
 const fs = require("fs");
 const hostname = 'localhost';
-const port = 80;
+const port = process.env.PORT || 80;
 solan = 0;
 
 app.set("views", path.join(__dirname, "views")); //setting views directory for views.
